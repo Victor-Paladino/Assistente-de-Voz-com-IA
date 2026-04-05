@@ -9,7 +9,7 @@ from openai import OpenAI
 # ========================
 # CARREGAR .ENV (FORÇADO)
 # ========================
-load_dotenv(dotenv_path="d:/Victor/Projetos/Assistente de Voz/.env")
+load_dotenv()
 
 print("DEBUG arquivos:", os.listdir())
 print("DEBUG API carregada com sucesso")
